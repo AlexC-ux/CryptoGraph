@@ -16,7 +16,7 @@ namespace WindowsFormsApp7
         {
             InitializeComponent();
         }
-        //Создаем новый экземпляр класса, чтобы кодировать символы в баты и наоборот
+        //Создаем новый экземпляр класса, чтобы кодировать символы в байты и наоборот
         public UnicodeEncoding ByteConverter = new UnicodeEncoding();
         //Создаем экземпляры криптографических классов 
         public static RSACryptoServiceProvider RSA = new RSACryptoServiceProvider(2048);
